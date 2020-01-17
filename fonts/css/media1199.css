@@ -1,0 +1,50 @@
+/* *************
+Media
+***************/
+
+
+/* 992 - 1199 */
+@media screen and (max-width: 1199px) {
+/* *************
+about page
+***************/
+
+
+/* *************
+service single page
+***************/
+.price__name {
+width: 70%;
+}
+
+.doctor__info_education{
+    margin-bottom: 30px;
+}
+.doctor__title{
+    padding-top: 0;
+}
+.doctor__img{
+    margin-bottom: 80px;
+}
+/* *************
+doctor single page
+***************/
+
+/* *************
+reviews  page
+***************/
+.rev__title{
+    width: max-content;
+}
+/* *************
+blog  page
+***************/
+
+.recomended{
+    padding: 33px 25px 30px 25px;
+}
+.discount_blog{
+    padding: 30px 25px 40px 25px;
+}
+
+}

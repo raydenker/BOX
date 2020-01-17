@@ -1,0 +1,157 @@
+/* *************
+Media
+***************/
+/* <576 */
+@media screen and (max-width: 575px) {
+
+     /* 
+*************
+other page 
+**************************
+*/
+.beauty__title{
+    margin-bottom: 20px;
+}
+
+/* *************
+about page
+***************/
+.title h1 {
+font-size: 26px;
+}
+.star {
+padding-top: 40px;
+}
+.sertificate__link{
+    width: 45%;
+}
+
+/* *************
+service single page
+***************/
+.contacts__form{
+    flex-direction: column;
+    align-items: center;
+}
+.contacts__input{
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+
+/* *************
+doctor single page
+***************/
+.doctor__btn {  
+    padding-left: 85px;
+    background-position: 180px center;
+}
+.doctor-sertificate{
+padding-bottom: 30px;
+}
+.beauty {
+    padding-top: 30px;
+}
+.doctor__info {
+    font-size: 12px;
+}
+/* *************
+reviews  page
+***************/
+.reviews__form{
+    padding: 0 10px;
+    width: 280px;
+    margin: 35px auto 50px;
+}
+.reviews__btn{width: 280px;
+padding-left: 90px;
+background-position: 180px center;
+}
+.reviews__btn:hover{
+    background-position: 190px center;
+    }
+.reviews__input{
+    width: 100%;
+    margin-bottom: 25px;
+}
+.reviews__input_message{
+    margin-top: 0;
+}
+.rev__slide{
+    padding: 30px;
+}
+.rev__name{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.rev__source{
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+.rev__text{
+    margin-bottom: 25px;
+}
+
+/* *************
+blog  page
+***************/
+.recomended__item{
+    width: 100%;
+}
+.last__link {
+    font-size: 12px;
+    padding-right: 0;
+}
+.last__img{
+    margin-bottom: 20px;
+}
+/* *************
+blog  page
+***************/
+
+/* *************
+contacts  page
+***************/
+.contacts__offer{
+width: 100%;
+text-align: center;
+}
+.contacts__form{
+    width: 280px;
+    margin: 0 auto;
+}
+.contacts__input{
+    margin-bottom: 90px;
+    width: 260px;
+}
+.contacts__offer {
+    width: 260px;
+    margin: 0 auto 80px;
+}
+.contacts__btn{
+    width: 260px;
+    padding-left: 75px;
+    background-position: 180px center;
+}
+.contacts__btn:hover{
+    background-position: 180px center;
+}
+.contacts__info{
+    padding: 50px 10px;
+    text-align: center;
+}
+.contacts__address{
+    width: 170px;
+    margin: 0 auto 20px;
+}
+.contacts__phone{
+    margin: 0 auto 20px;
+    width: 160px;
+}
+.contacts__works{
+    width: max-content;
+    margin: 0 auto 20px;
+}
+
+
+}

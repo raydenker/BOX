@@ -1,0 +1,490 @@
+/* *************
+Media
+***************/
+@media screen and (max-width: 1600px) {}
+
+
+@media screen and (max-width: 1400px) {}
+
+/* 992 - 1199 */
+@media screen and (max-width: 1199px) {
+
+    .header__footer:after {
+        width: 75%;
+    }
+
+    .header__footer {
+        padding: 30px 20px;
+    }
+
+    .services__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about__count {
+        padding-top: 60px;
+    }
+
+    .about__offer {
+        margin-bottom: 20px;
+    }
+
+    .discount__btn {
+        width: 160px;
+    }
+
+
+
+    .discount {
+        padding: 82px 77px 82px 65px;
+
+    }
+
+    .about__title {}
+
+    .team__title,
+    .about__title,
+    .discount__info,
+    .services__title,
+    .reward__title {
+
+        font-size: 26px;
+    }
+
+    .team__title {
+        padding-top: 0px;
+    }
+
+
+
+
+}
+
+
+/* 768 - 991 */
+@media screen and (max-width: 991px) {
+
+    header {
+        background: #f0f4f7;
+        /* background: url(../img/bg__mob.jpg) repeat-x center center / cover; */
+    }
+
+    .header_other {
+        background: #ffffff;
+    }
+
+    .header__blue {
+        padding: 5px 0;
+    }
+
+    .nav__item a {
+        font-size: 11px;
+        padding: 0 5px;
+    }
+
+    .btn__header {
+        width: 130px;
+        font-size: 11px;
+        padding-left: 15px;
+        background: #fff url(../img/arrow_icon_btn_blue.svg) no-repeat 100px center;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    .btn__header:hover {
+        border-color: #fff;
+        background-position: 105px center;
+    }
+
+    .header__footer:after {
+        width: 100%;
+
+    }
+
+    .services {
+        padding-top: 70px;
+    }
+
+    .services__item {
+        min-height: 310px;
+    }
+
+    .discount {
+        padding: 50px 65px;
+        margin-bottom: 50px;
+
+    }
+
+    .about__count {
+        justify-content: space-around;
+    }
+
+    .discount__text {
+        margin-bottom: 30px;
+    }
+
+    .about__offer {
+        height: auto;
+    }
+
+    .team {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .team__item {
+        margin-bottom: 30px;
+    }
+
+    .reward .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+}
+
+/* 576 - 767 */
+@media screen and (max-width: 767px) {
+
+    .offer__text {
+        max-width: 450px;
+    }
+
+    .bottom__text {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .bottom__content {
+        flex-wrap: wrap;
+    }
+
+    .header__footer {
+        padding: 16px 0;
+    }
+    .services{
+        padding-top: 50px;
+    }
+    .services__title{
+        padding-top: 0;
+    }
+
+    .services__img {
+        display: none;
+    }
+
+    .services__title,
+    .services__offer {
+        text-align: center;
+    }
+
+    .services__btn {
+        margin-top: 30px;
+    }
+
+    .menu__burger {
+        display: block;
+    }
+
+    .btn__header {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    .nav {
+        position: fixed;
+        flex-direction: column;
+        width: 500px;
+        top: 0;
+        right: -150%;
+        background: rgba(74, 117, 152, 0.9);
+        height: 100%;
+        overflow-y: auto;
+        bottom: 0;
+        z-index: 50;
+        padding-top: 60px;
+        transition: all .3s ease-out;
+    }
+
+    .nav__open {
+        right: 0;
+    }
+
+    .text__menu {
+        font-size: 11px;
+        color: #4A7598;
+        line-height: 1em;
+    }
+
+    .close__menu {
+        display: block;
+    }
+
+    .nav__item {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .nav__item a {
+        color: #fff;
+        font-size: 18px;
+        padding: 0 0 5px 0;
+        position: relative;
+    }
+
+    .nav__item a:after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+        transform-origin: center center;
+        transform: rotateY(90deg);
+        opacity: 0;
+        transition: all .4s ease-out;
+    }
+
+    .nav__item a:hover:after {
+        transform: rotateY(0deg);
+        opacity: 1;
+    }
+
+
+    .nav__list {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contact__mob {
+        display: flex;
+        margin-top: auto;
+        padding: 15px 5px;
+        border-top: 1px solid #fff;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav .social__link {
+        width: 16px;
+        height: 16px;
+        background-size: contain;
+        margin-left: 5px;
+    }
+
+    .address__link,
+    .header__phone {
+        font-size: 16px;
+    }
+}
+
+/* <576 */
+
+
+@media screen and (max-width: 575px) {
+    .header__blue {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        max-width: 130px;
+    }
+
+    .btn__header {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        max-width: 130px;
+    }
+
+    .btn__header {
+        display: none;
+    }
+
+    .menu__burger {
+        margin-left: auto;
+    }
+
+    .nav {
+        width: 100%;
+    }
+
+    .nav .address__link,
+    .nav .header__phone {
+        font-size: 12px;
+        margin-right: 15px;
+    }
+
+    .offer h1 {
+        width: 290px;
+        font-size: 31px;
+        text-align: center;
+        margin: 0 auto 25px;
+    }
+
+    .offer__text {
+        margin: 0 auto 85px;
+        font-size: 16px;
+        text-align: center;
+    }
+   .header__footer{
+       padding:0 0 40px
+   }
+
+    .bottom__form {
+        display: none;
+    }
+    .bottom__text{
+        text-align: center;
+        width: 280px;
+        margin: 0 auto 25px;
+    }
+    .bottom__btn_active {
+        display: flex;
+        width: 280px;
+        height: 49px;
+        font-size: 12px;
+        margin:  0 auto;
+        padding-left: 85px;
+        background-position: 190px center;
+        letter-spacing: 0.13em;
+    }
+    .bottom__btn_active:hover{
+        background-position: 190px center;
+    }
+
+
+    .header__footer:after {
+        background: transparent;
+    }
+
+    .offer__btn {
+        display: block;
+    }
+
+    .services__item {
+        width: 280px;
+        margin: 0 auto;
+        padding: 44px 45px 55px;
+    }
+
+    .services__info {
+        margin-bottom: 36px;
+    }
+
+    /* .services__list>div {
+       padding: 0;
+    } */
+    .services {
+        padding: 40px 0;
+    }
+
+    .about {
+        padding: 40px 0;
+    }
+    .about__count{
+        display: none;
+    }
+
+    .discount {
+        padding: 80px 20px 60px;
+    }
+    .about .discount__info{
+        font-size: 30px;
+    }
+
+    .discount__text{
+        margin-bottom: 78px;
+    }
+    .discount__btn{
+        width: 280px;
+        padding-left: 85px;
+        background-position: 190px center;
+        letter-spacing: 0.13em;
+        max-width: 280px;
+        width: 100%;
+    }
+    .discount__btn:hover{
+        background-position: 190px center;
+    }
+    .team__content{
+        display: none;
+    }
+    .team__slide{
+        width: 100%;
+        max-width: 320px;
+        padding: 0 15px;
+    }
+    .team__all{
+        display: inline;
+    }
+
+    .reward {
+      
+        padding: 35px 0 65px;
+    }
+    .reward__link{
+        width: 82px !important;
+        margin: 0 auto;
+    }
+
+    .beauty {
+        padding-bottom: 50px;
+    }
+    .footer__social_desk{
+        display: none;
+    }
+    .footer__social_mob{
+        display: flex;
+        justify-content: center;
+        margin-top: 74px;
+    }
+    .footer__logo{
+        margin:  0 auto;
+    }.footer__title{
+        margin-bottom: 30px;
+    }
+    .footer__title, .footer__contact{
+        text-align: center;
+    }
+    .address__link_footer{
+        width: 170px;
+    }
+    .header__phone_footer{
+        width: 160px;
+    }
+    .time__work_footer{
+        width: 150px;
+    }
+    .footer__info {
+        display: none;
+    }
+    .address__link_footer, .time__work_footer, .header__phone_footer{
+        margin: 0 auto 20px;
+    }
+    .social__link{
+        width: 16px;
+        height: 16px;
+    }   
+
+    .about__item {
+        margin-bottom: 25px;
+    }
+
+    .about__info {
+        text-align: center;
+    }
+
+  
+}

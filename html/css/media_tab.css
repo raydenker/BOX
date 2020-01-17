@@ -1,0 +1,116 @@
+/* *************
+Media
+***************/
+
+/* 576 -767 */
+
+
+@media screen and (max-width: 767px) {
+
+ /* 
+*************
+other page 
+**************************
+*/
+/* *************
+about page
+***************/
+
+/* *************
+service single page
+***************/
+.service__title{
+    text-align: center;
+}
+.service__about{
+    text-align: center;
+}
+.service__price{
+    text-align: center;
+}
+
+.service__price .precise {
+display: block;
+text-align: center;
+margin-top: 10px;
+}
+.service__btn{
+    margin: 0 auto 76px;
+   
+    
+letter-spacing: 0.13em;
+}
+.price__item {  
+      margin-bottom: 14px;
+}
+
+.price__item:last-child{
+    border-bottom: 1px solid #F5F5F5;  
+}
+.price__list_second .price__item:last-child{
+    border-bottom: none;
+}
+/* .doctor__info_education{
+    margin-bottom: 60px;
+} */
+
+.doctor__img{
+    width: 100%;
+    max-width: 280px;
+    margin-bottom: 50px;
+}
+.doctor__btn {
+    margin-top: auto;
+    margin-bottom: 40px;
+    max-width: 280px;
+    width: 100%;
+    padding-left: 70px;
+    background-position: 170px center;
+}
+
+.contacts__form{
+    justify-content: center;
+}
+.contacts__offer_other{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+.form-section{
+    padding: 65px 0 38px;
+}
+.contacts__offer{
+    margin-bottom: 80px;
+}
+.doctor-sertificate{
+    padding-top: 60px;
+}
+/* *************
+doctor single page
+***************/
+
+/* *************
+reviews  page
+***************/
+.rev__info_list{
+    justify-content: space-around;
+}
+.rev__item {
+    padding: 0 15px;
+}
+.rev__title{
+    margin: 0 auto 10px;
+}
+.rev__count{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.rev__slider{
+    margin-bottom: 40px;
+}
+
+/* *************
+blog  page
+***************/
+
+}
